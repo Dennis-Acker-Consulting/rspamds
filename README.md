@@ -1,8 +1,8 @@
-mkdir rspamd.build
-cd rspamd.build
-cmake ../rspamd -DENABLE_HYPERSCAN=ON -DENABLE_LUAJIT=ON -DCMAKE_BUILD_TYPE=RelWithDebuginfo
-make
-sudo make install
+mkdir rspamd.build <br>
+cd rspamd.build<br>
+cmake ../rspamd -DENABLE_HYPERSCAN=ON -DENABLE_LUAJIT=ON -DCMAKE_BUILD_TYPE=RelWithDebuginfo<br>
+make<br>
+sudo make install<br>
 
 ------------------------------------------------
 
